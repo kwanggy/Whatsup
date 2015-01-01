@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
 
         setContentView(R.layout.activity_main);
 
-        int wait = 5 * 1000;// wait this many milliseconds before moving on to next activity
+        int wait = 1 * 1000;// wait this many milliseconds before moving on to next activity
         // Note: make sure this is set to a proper number when demonstrating
 
         Timer clock = new Timer();
